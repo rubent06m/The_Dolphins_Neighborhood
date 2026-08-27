@@ -1,3 +1,4 @@
+html,
 body {
   margin: 0;
   background-image: url("/images/amzvcs2mk2oe1.gif");
@@ -9,6 +10,7 @@ body {
   cursor:
     url("/images/DolphinCursor.png") 4 4,
     auto;
+  min-height: 100%;
 }
 
 * {
