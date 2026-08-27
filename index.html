@@ -1,0 +1,367 @@
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Dolphin's Neighborhood!</title>
+  <link
+    rel="icon"
+    type="image/png"
+    sizes="192x192"
+    href="/images/android-chrome-192x192.png"
+  />
+  <link href="/style.css" rel="stylesheet" type="text/css" media="all" />
+</head>
+  <body>
+    <header>
+      <div class="HeaderPage">
+        <nav class="MainNav"></nav>
+      </div>
+    </header>
+
+    <div class="MainContainer">
+      <div class="HeaderContainer">
+        <img
+          src="/images/Dolphin.png"
+          alt="Dolphin 16-bit image!"
+          class="logo"
+        />
+        <img src="/images/DolphinSpinning.gif" class="dolphin-spinning" />
+        <h1>
+          The Dolphin's <br />
+          Neighborhood!
+        </h1>
+      </div>
+      <div class="sidebarContainerLeft">
+        <div class="sidebar-item">
+          <div class="miniContainer">
+            <h5>Website Info</h5>
+          </div>
+          <h5>
+            <img src="/images/HomeIcon.png" class="mini-icon-home" /><a
+              href="#home"
+              >Home</a
+            >
+          </h5>
+          <hr />
+          <h5>
+            <img src="/images/SiteInfoIcon.png" class="mini-icon-siteinfo" /><a
+              href="#siteinfo"
+              >Site Info</a
+            >
+          </h5>
+          <hr />
+          <h5>
+            <img
+              src="/images/SiteUpdateIcon.png"
+              class="mini-icon-siteupdate"
+            /><a href="#updates">Site Archives</a>
+          </h5>
+          <hr />
+          <h5>
+            <img
+              src="/images/DolphinIconPhotos.png"
+              class="mini-icon-dolphinphotos"
+            /><a href="#photos">Dolphins photos</a>
+          </h5>
+        </div>
+        <div class="sidebar-item">
+          <div class="miniContainer">
+            <h5>Personal</h5>
+          </div>
+          <h5>
+            <img
+              src="/images/dolphiniconXD-removebg-preview.png"
+              class="mini-icon-dolphin"
+            /><a href="#about">About Me</a>
+          </h5>
+          <hr />
+          <h5>
+            <img src="/images/Mugman-PNG-File.png" class="mini-icon-mugman" /><a
+              href="#games"
+              >Favorite Games</a
+            >
+          </h5>
+          <hr />
+          <h5>
+            <img src="/images/MusicIcon.png" class="mini-icon-music" />
+            <a href="#music">Favorite Music</a>
+          </h5>
+          <hr />
+          <h5>
+            <img src="/images/DrumkitIcon.png" class="mini-icon-drumkit" /><a
+              href="#hobbies"
+              >Hobbies</a
+            >
+          </h5>
+        </div>
+        <div class="sidebar-item">
+          <div class="miniContainer">
+            <h5>Lejiak Files</h5>
+            <img src="/images/Luigifrontview.webp" class="LuigiVendettaXD">
+          </div>
+          <h5 class="XD">XD</h5>
+        </div>
+        <div class="music-player">
+          <div class="now-playing-container">
+            <h3>Music Playlist</h3>
+          </div>
+          
+          <div class="song-name-container">
+            <p id="song-name">No song selected</p>
+          </div>
+        
+          <audio id="audio"></audio>
+        
+          <div class="controls">
+            <button onclick="prevSong()">⏮ Prev</button>
+            <button onclick="playMusic()">▶ Play</button>
+            <button onclick="pauseMusic()">⏸Pause</button>
+            <button onclick="nextSong()">⏭ Next</button>
+          </div>
+        
+          <div class="volume">
+            <div class="volume-container">
+            <p>Volume:</p>
+          </div>
+            <input
+              type="range"
+              id="vol"
+              min="0"
+              max="100"
+              value="70"
+              oninput="setVolume()"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="sidebarContainerRight">
+        <div class="poster-container">
+          <h5>Dolphin Posters</h5>
+        </div>
+        <img src="/images/DolphinPoster.png" class="dolphin-poster" />
+        <img src="/images/DolphinPoster2.png" class="dolphin-poster2" />
+        <img src="/images/underwater.png" class="underwater-poster" />
+        <img src="/images/DolphinPoster3.png" class="dolphin-poster3" />
+        <div class="sidebar-item"></div>
+      </div>
+
+      <div class="center-content">
+        <main class="centerContent">
+          <section id="home">
+            <div class="textContainers-main-bg">
+              <h2>Home Page</h2>
+            </div>
+            <div class="homeContainer1">
+              <img class="dolphin16bit" src="/images/dolphin-kairu.gif" />
+              <p>
+                <span class="first-line"
+                  >Welcome to The Dolphin's Neighborhood! My very first website
+                  made with</span
+                >
+                <span class="second-line"
+                  >HTML and CSS. As soon as I got the thought of doing a website
+                  my first idea</span
+                >
+                was to theme it around dolphins, since it's my favorite animal
+                and I get recognized by friends pretty much by a dolphin profile
+                or name-related. Since I was focused more on the design and
+                esthetic of the website itself, I tried my best at capturing
+                that Neocities vibe from the 2000s and I think I did a good job
+                doing so. It's my first website, so there ain't too much yet
+                going on for now, but there is more to come soon. Enjoy!
+              </p>
+            </div>
+            <img
+              src="/images/underwater-pixel-art-scene-with-colorful-fish-coral-reef_1222783-4348.avif"
+              class="beachBanner"
+            />
+            <div class="hC2-titlebox">
+              <h3>What is Neocities?</h3>
+            </div>
+            <div class="homeContainer2">
+              <p>
+                Neocities is a free commercial web hosting service that brings
+                <br />
+                back the spirit of 1990s and early 2000s Geocities era by
+                letting
+                <br />
+                you upload your own personal website and share it with other
+                <br />
+                people by using raw HTML, CSS, Javascript and image files. The
+                <br />
+                best thing about neocities is its remarkable and unique retro
+                <br />
+                style across uncountable pages that combine the art of coding
+                <br />
+                with hobbies, blogs, art and many more. Designing a web page
+                <br />
+                and frontend in general is one of my main interests in coding so
+                <br />
+                I knew right away I would get attached to Neocities and its
+                style.
+              </p>
+              <img src="/images/dolphin16bit.gif" class="dolphin16bitgif" />
+            </div>
+          </section>
+          
+          <section id="siteinfo">
+            <div class="siteinfoContainer1">
+              <div class="textContainers-main-bg1">
+                <h2>About this Website</h2>
+              </div>
+              <div class="siteinfo-p1">
+              <p>This website holds a special meaning to me since its my first attempt of a website as a
+               project of my own. Here you will find <br> a dolphin themed website that shares some of my interests and <br>
+              facts about me. As most of the websites in Neocities, this one is made merely with HTML and CSS, with a little bit of Javascript <br>
+              involved. Neocities pages have always been about the 2000s esthetic and this page is no exception, especially since frontend <br>
+              is what I love most about coding <br>
+              and as a student who is currently <br>
+              persuing a career in Software <br>
+              Development and management, <br>
+              I am proud this is my first project <br>
+              in this amazing journey of coding.   </p>
+              </div>
+              <img src="/images/FrutigerAero1.gif" class="FrutigerAero1">
+              <img src="/images/FrutigerAero3.gif" class="FrutigerAero3">
+            </div>
+
+            <div class="siteinfoContainer2">
+              <div class="textContainers-main-bg2">
+                  <h2>Websites that I took Inspiration of</h2>
+              </div>
+              <img src="/images/Danielles Website.png" class="Inspiration1">
+              <img src="/images/FrutigerAeroWebsite.png" class="Inspiration2">
+              <a href="https://daniele63.com/">
+
+                <div class="ContainerIns1">
+                  <a href="https://daniele63.com/">
+              <p id="LinkIns1">Danielle Website</a>
+              </p>
+            </div>
+            <div class="ContainerIns2">
+              <a href="https://frutigeraeroarchive.org/">
+                <p id="LinkIns2">Frutiger Aero Archive</a>
+            </p>
+          </div>
+
+          <pre id="siteinfoContainer2P">When I first wondered through Neocities, one of my first discoveries was Danielle's 63
+website, which as you can see, i've taken a lot of inspiration from his website. I really
+liked the format, design, style and creativity it gives. It really helped me as a foundation
+so that i could adapt my own style to it. The other website called "Frutiger Aero Archive"
+is also a well inspiration for me since it revolves around the frutiger aero style that the
+early 2000s websites had, style that I have tried to implement throughout my website. 
+So what best way to thank these people by listing their websites above, check them out!</pre>
+
+          <div class="siteinfoContainer3">
+            <div class="textContainers-main-bg3">
+              <h2>Copyright Notice</h2>
+              <p>Many of the dolphin images and gifs in this site I do not claim ownership of any of it. 
+                If you claim to have ownership of one or multiple of these elements and object the use of them, 
+                contact me and I will remove it.</p>
+                <p>Another thing I would like to adress is that its fine if you wanna use my code or take it for reference for your own project,
+                  although it's definitely not the cleanest and most organized one jajaja, but i would appreciate it if you credit my site by linking it back if you can. </p>
+            </div>
+            <div class="siteinfoContainer4">
+              <div class="textContainers-main-bg4">
+                <h2>Privacy Policy</h2>
+                <p>All content on this website is purely for personal purposes of my own. 
+                I do not intend to profit in any way throughout this site, as well as this site does not have its own trackers or ads.
+                I've used Javascript for the music playlist to function.</p>
+              </div>
+            </div>
+            <div class="scroll-end-spacer1"></div>
+          </section>
+
+          <section id="updates">
+            <div class="updateContainer1">
+              <div class="textContainers-main-bg1">
+                <h2>The Dolphin Archives</h2>
+                <p>This section is dedicated to illustrate some sort of evolution my website has had over these past few months of development. 
+                Although I didn't save too much footage of the process since my work was kinda inconsistent not gonna lie, but there is enough 
+                to tell a clear difference. Enjoy the Dolphin Archives! </p>
+              </div>
+            </div>
+
+            <div class="updateContainer2">
+                  <img src="/images/Archive1.png" class="Archive1">
+                  <div class="updatesMiniContainer1">
+                    <h2>11/05/26 - First Background Theme</h2>
+                </div>
+            </div>
+
+            <div class="updateContainer3">
+              <img src="/images/Archive2.png" class="Archive2">
+              <div class="updatesMiniContainer2">
+                <h2>14/05/26 - Left and Right Sidebars</h2>
+              </div>
+            </div>
+
+            <div class="updateContainer4">
+              <video src="/video/Archive3.mp4" class="Archive3" controls></video>
+              <div class="updatesMiniContainer3">
+                <h2>12/05/26 - Main Structure and Title </h2>
+              </div>
+            </div>
+
+            <div class="updateContainer5">
+              <video src="/video/Archive4.mp4" class="Archive4" controls></video>
+              <div class="updatesMiniContainer4">
+                <h2>02/06/26 - Home Section Process</h2>
+              </div>
+            </div>
+
+            <div class="updateContainer6">
+              <img src="/images/Archive5.png" class="Archive5">
+              <div class="updatesMiniContainer5">
+                <h2>02/06/26 - Left Sidebar Sections</h2>
+              </div>
+            </div>
+
+            <div class="updateContainer7">
+              <img src="/images/Archive6.png" class="Archive6">
+              <div class="updatesMiniContainer6">
+                <h2>07/08/26 - Site Archive Process / Music Box</h2>
+              </div>
+            </div>
+            <div class="scroll-end-spacer2"></div>
+          </section>
+
+          <section id="photos">
+            <div class="textContainers-main-bg">
+              <h2>Dolphins photos</h2>
+            </div>
+          </section>
+
+          <section id="about">
+            <div class="textContainers-main-bg">
+              <h2>About Me</h2>
+            </div>
+          </section>
+
+          <section id="games">
+            <div class="textContainers-main-bg">
+              <h2>Favorite Games</h2>
+            </div>
+          </section>
+
+          <section id="music">
+            <div class="textContainers-main-bg">
+              <h2>Favorite Music</h2>
+            </div>
+          </section>
+
+          <section id="hobbies">
+            <div class="textContainers-main-bg">
+              <h2>Hobbies</h2>
+            </div>
+          </section>
+        </main>
+      </div>
+
+      <div class="footerContainer">
+        <p>2026 - dolphin25</p>
+      </div>
+    </div>
+    <script src="/script.js"></script>
+  </body>
+</html>

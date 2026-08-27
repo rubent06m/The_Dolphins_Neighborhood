@@ -1,0 +1,1469 @@
+body {
+  margin: 0;
+  background-image: url("/images/amzvcs2mk2oe1.gif");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: contain;
+  background-size: 1920px 1080px;
+  cursor:
+    url("/images/DolphinCursor.png") 4 4,
+    auto;
+}
+
+* {
+  user-select: none;
+}
+
+.MainContainer {
+  display: flex;
+  flex-direction: column;
+  width: 904px;
+  height: 822px;
+  padding-top: 10px;
+  margin: 100px auto 0;
+  background-image:
+    url("/images/DolphinPattern.png"),
+    linear-gradient(to bottom, rgb(87, 193, 249), rgb(17, 111, 252));
+  background-size:
+    190px 190px,
+    100% 100%;
+  background-repeat: repeat, no-repeat;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.35);
+  border-radius: 60px;
+  position: relative;
+}
+
+.HeaderContainer {
+  padding: 11px 13px;
+  width: 898px;
+  height: 85px;
+  border-radius: 50px 52px 0 0;
+  margin-left: -10px;
+  margin-top: -12px;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(87, 193, 249),
+    rgb(17, 111, 252)
+  );
+  outline: 3px solid black;
+  position: relative;
+  z-index: 3;
+}
+
+.HeaderContainer h1 {
+  margin-top: -90px;
+}
+
+.dolphin-spinning {
+  margin-left: 780px;
+  margin-top: -10px;
+  width: 130px;
+  height: 100px;
+}
+h1 {
+  background: linear-gradient(
+    to right,
+    yellow,
+    rgb(224, 14, 189),
+    rgb(0, 0, 255),
+    rgb(140, 0, 255),
+    red
+  );
+  background-size: 200%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px black;
+  animation: animate-gradient 3s linear infinite;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding-top: -40px;
+  padding-left: 100px;
+  margin-top: 2px;
+  font-size: 30px;
+}
+
+@keyframes animate-gradient {
+  to {
+    background-position: 200%;
+  }
+}
+
+.logo {
+  width: 300px;
+  height: auto;
+  position: absolute;
+  margin-top: -50px;
+  margin-right: -50px;
+  margin-left: -115px;
+}
+
+.centerContent section {
+  display: none;
+}
+
+.centerContent section:target {
+  display: block;
+}
+
+.centerContent:not(:has(:target)) #home {
+  display: block;
+}
+
+#home .textContainers-main-bg {
+  width: 560px;
+  height: 30px;
+  position: absolute;
+  top: 120px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 0px;
+  background: linear-gradient(to top, rgb(39, 172, 244), rgb(0, 102, 255));
+  pointer-events: none;
+  border: 2px solid rgb(32, 4, 158);
+}
+
+.beachBanner {
+  width: 560px;
+  height: 180px;
+  position: absolute;
+  top: 160px;
+  left: 170px;
+  border-radius: 0px;
+  background: linear-gradient(to right, rgb(39, 172, 244), rgb(0, 102, 255));
+  pointer-events: none;
+  border: 2px solid rgb(32, 4, 158);
+}
+
+.textContainers-main-bg h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  text-align: center;
+  margin-top: 4px;
+  font-size: 18px;
+}
+
+.homeContainer1 {
+  width: 560px;
+  height: 160px;
+  position: absolute;
+  top: 352px;
+  left: 170.5px;
+  background-image: url("/images/bluewhitebg-png.avif");
+  background-size: 600px 200px;
+  background-repeat: no-repeat;
+  border: 2px solid rgb(32, 4, 158);
+  opacity: 0.9;
+}
+
+.dolphin16bit {
+  position: absolute;
+  margin-top: -32px;
+  margin-left: -20px;
+  width: 115px;
+  height: 115px;
+  opacity: 1;
+  pointer-events: none;
+}
+
+.homeContainer1 p {
+  text-align: justify;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: left;
+  font-size: 13.5px;
+  font-weight: bold;
+  padding-left: 5px;
+  margin-top: -5px;
+  padding: 12px;
+  line-height: 1.6;
+  color: rgb(0, 3, 91);
+  text-shadow:
+    -1px -1px 0 rgb(255, 255, 255),
+    1px -1px 0 rgb(255, 255, 255),
+    -1px 1px 0 rgb(255, 255, 255),
+    1px 1px 0 rgb(255, 255, 255),
+    0px 1px 0 rgb(255, 255, 255);
+  user-select: text;
+}
+
+#home span {
+  display: block;
+  text-align: justify;
+  user-select: text;
+}
+
+#home .first-line {
+  text-indent: 66px;
+  user-select: text;
+}
+
+#home .second-line {
+  text-indent: 66px;
+  user-select: text;
+}
+
+.hC2-titlebox {
+  width: 560px;
+  height: 30px;
+  position: absolute;
+  top: 524px;
+  left: 453px;
+  transform: translateX(-50%);
+  border-radius: 0px;
+  background: linear-gradient(to top, rgb(39, 172, 244), rgb(0, 102, 255));
+  pointer-events: none;
+  border: 2px solid rgb(32, 4, 158);
+}
+
+.hC2-titlebox h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  text-align: center;
+  margin-top: 5px;
+  font-size: 18px;
+}
+
+.homeContainer2 {
+  width: 560px;
+  height: 180px;
+  position: absolute;
+  top: 565px;
+  left: 453px;
+  transform: translateX(-50%);
+  background-image: url("/images/waveBackground.png");
+  background-repeat: no-repeat;
+  border: 2px solid rgb(32, 4, 158);
+}
+
+.homeContainer2 p {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: justify;
+  font-size: 13.5px;
+  font-weight: bold;
+  padding-left: 5px;
+  margin-top: 5px;
+  line-height: 1.4;
+  color: rgb(0, 3, 91);
+  text-shadow:
+    -1px -1px 0 rgb(255, 255, 255),
+    1px -1px 0 rgb(255, 255, 255),
+    -1px 1px 0 rgb(255, 255, 255),
+    1px 1px 0 rgb(255, 255, 255),
+    0px 1px 0 rgb(255, 255, 255);
+  user-select: text;
+}
+
+.dolphin16bitgif {
+  width: 155px;
+  height: 155px;
+  position: absolute;
+  top: 10px;
+  right: 5px;
+  border: 2px solid rgb(32, 4, 158);
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+.siteinfoContainer1 {
+  width: 560px;
+  height: 300px;
+  position: absolute;
+  top: 15px;
+  left: 0;
+  background-image: url("/images/bluewhitebg-png.avif");
+
+  background-repeat: no-repeat;
+  border: 2px solid rgb(32, 4, 158);
+}
+
+.textContainers-main-bg1 {
+  width: 538px;
+  height: 30px;
+  position: absolute;
+  top: 10px;
+  left: 9px;
+  background: linear-gradient(to right, rgb(39, 172, 244), rgb(0, 102, 255));
+  pointer-events: none;
+  border: 2px solid rgb(32, 4, 158);
+}
+
+.textContainers-main-bg1 h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  text-align: center;
+  margin-top: 4px;
+  font-size: 18px;
+}
+
+.siteinfo-p1 {
+  margin-top: 50px;
+  padding-left: 160px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: left;
+  font-size: 13.5px;
+  font-weight: bold;
+  color: rgb(0, 3, 91);
+  text-shadow:
+    -1px -1px 0 rgb(255, 255, 255),
+    1px -1px 0 rgb(255, 255, 255),
+    -1px 1px 0 rgb(255, 255, 255),
+    1px 1px 0 rgb(255, 255, 255),
+    0px 1px 0 rgb(255, 255, 255);
+  user-select: text;
+  word-spacing: 0.5;
+  line-height: 1.4;
+}
+
+.FrutigerAero1 {
+  width: 140px;
+  height: 235px;
+  margin-left: 10px;
+  margin-top: -270px;
+  border: 2px solid rgb(32, 4, 158);
+  border-radius: 10px;
+}
+
+.FrutigerAero3 {
+  width: 175px;
+  height: 105px;
+  margin-left: 218px;
+  margin-top: -138px;
+  border-radius: 10px;
+  border: 2px solid rgb(32, 4, 158);
+}
+
+.siteinfoContainer2 {
+  width: 560px;
+  height: 450px;
+  position: absolute;
+  top: 330px;
+  left: 0;
+  background-image: url("/images/waveBackground.png");
+  background-size: 600px 600px;
+  background-repeat: no-repeat;
+  border: 2px solid rgb(32, 4, 158);
+}
+.textContainers-main-bg2 {
+  width: 538px;
+  height: 30px;
+  position: absolute;
+  top: 10px;
+  left: 9px;
+  background: linear-gradient(to right, rgb(39, 172, 244), rgb(0, 102, 255));
+  pointer-events: none;
+  border: 2px solid rgb(32, 4, 158);
+}
+
+.textContainers-main-bg2 h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  text-align: center;
+  margin-top: 4px;
+  font-size: 18px;
+}
+
+#siteinfoContainer2P {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: justify;
+  font-size: 13.5px;
+  font-weight: bold;
+  padding-left: 13px;
+  margin-top: 12px;
+  line-height: 1.4;
+  color: rgb(0, 3, 91);
+  text-shadow:
+    -1px -1px 0 rgb(255, 255, 255),
+    1px -1px 0 rgb(255, 255, 255),
+    -1px 1px 0 rgb(255, 255, 255),
+    1px 1px 0 rgb(255, 255, 255),
+    0px 1px 0 rgb(255, 255, 255);
+  user-select: text;
+}
+
+.Inspiration1 {
+  width: 250px;
+  height: 200px;
+  margin-left: 15px;
+  margin-top: 55px;
+  border-radius: 10px;
+  border: 2px solid rgb(32, 4, 158);
+}
+
+.Inspiration2 {
+  width: 250px;
+  height: 200px;
+  margin-left: 290px;
+  margin-top: -204px;
+  border-radius: 10px;
+  border: 2px solid rgb(32, 4, 158);
+}
+
+#LinkIns2 a {
+  cursor:
+    url("/images/CursorPointer.png") 0 0,
+    pointer;
+  text-decoration: none;
+}
+
+#LinkIns2 a:hover {
+  text-decoration: underline;
+  color: blue;
+}
+
+.ContainerIns1 {
+  width: 200px;
+  height: 23px;
+  margin-top: 8px;
+  margin-left: 40px;
+  background-image: linear-gradient(
+    to right,
+    rgb(39, 172, 244),
+    rgb(0, 102, 255)
+  );
+  border: 2px solid rgb(32, 4, 158);
+  border-radius: 5px;
+}
+
+#LinkIns1 {
+  margin-top: 2px;
+  margin-left: 50px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: left;
+  font-size: 13.5px;
+  font-weight: bold;
+  color: rgb(0, 3, 91);
+  text-shadow:
+    -1px -1px 0 rgb(255, 255, 255),
+    1px -1px 0 rgb(255, 255, 255),
+    -1px 1px 0 rgb(255, 255, 255),
+    1px 1px 0 rgb(255, 255, 255),
+    0px 1px 0 rgb(255, 255, 255);
+  user-select: text;
+  word-spacing: 0.5;
+  line-height: 1.4;
+}
+
+#LinkIns1 a {
+  cursor:
+    url("/images/CursorPointer.png") 0 0,
+    pointer;
+  text-decoration: none;
+}
+
+#LinkIns1 a:hover {
+  text-decoration: underline;
+  color: blue;
+}
+
+.ContainerIns2 {
+  width: 200px;
+  height: 23px;
+  margin-top: -27px;
+  margin-left: 315px;
+  background-image: linear-gradient(
+    to right,
+    rgb(39, 172, 244),
+    rgb(0, 102, 255)
+  );
+  border: 2px solid rgb(32, 4, 158);
+  border-radius: 5px;
+}
+
+#LinkIns2 {
+  margin-top: 2px;
+  margin-left: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: left;
+  font-size: 13.5px;
+  font-weight: bold;
+  color: rgb(0, 3, 91);
+  text-shadow:
+    -1px -1px 0 rgb(255, 255, 255),
+    1px -1px 0 rgb(255, 255, 255),
+    -1px 1px 0 rgb(255, 255, 255),
+    1px 1px 0 rgb(255, 255, 255),
+    0px 1px 0 rgb(255, 255, 255);
+  user-select: text;
+  word-spacing: 0.5;
+  line-height: 1.4;
+}
+
+.siteinfoContainer3 {
+  width: 560px;
+  height: 198px;
+  position: absolute;
+  top: 462px;
+  left: -2;
+  background-image: url("/images/waveBackground.png");
+  background-size: 600px 300px;
+  background-repeat: no-repeat;
+  border: 2px solid rgb(32, 4, 158);
+  margin-bottom: 20px;
+}
+
+.textContainers-main-bg3 {
+  width: 538px;
+  height: 30px;
+  position: absolute;
+  top: 10px;
+  left: 9px;
+  background: linear-gradient(to right, rgb(39, 172, 244), rgb(0, 102, 255));
+  pointer-events: none;
+  border: 2px solid rgb(32, 4, 158);
+}
+
+.textContainers-main-bg3 h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  text-align: center;
+  margin-top: 4px;
+  font-size: 18px;
+}
+
+.siteinfoContainer3 p {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: justify;
+  font-size: 13.5px;
+  font-weight: bold;
+  margin-top: -2px;
+  line-height: 1.4;
+  color: rgb(0, 3, 91);
+  text-shadow:
+    -1px -1px 0 rgb(255, 255, 255),
+    1px -1px 0 rgb(255, 255, 255),
+    -1px 1px 0 rgb(255, 255, 255),
+    1px 1px 0 rgb(255, 255, 255),
+    0px 1px 0 rgb(255, 255, 255);
+  user-select: text;
+}
+
+.siteinfoContainer4 {
+  width: 560px;
+  height: 115px;
+  position: absolute;
+  top: 210px;
+  left: -2;
+  background-image: url("/images/bluewhitebg-png.avif");
+  background-size: 600px 300px;
+  background-repeat: no-repeat;
+  border: 2px solid rgb(32, 4, 158);
+}
+
+.textContainers-main-bg4 {
+  width: 538px;
+  height: 30px;
+  position: absolute;
+  top: 10px;
+  left: 9px;
+  background: linear-gradient(to right, rgb(39, 172, 244), rgb(0, 102, 255));
+  pointer-events: none;
+  border: 2px solid rgb(32, 4, 158);
+}
+
+.textContainers-main-bg4 h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  text-align: center;
+  margin-top: 4px;
+  font-size: 18px;
+}
+
+.scroll-end-spacer1 {
+  position: absolute;
+  top: 325px;
+  left: 0;
+  width: 1px;
+  height: 20px;
+}
+
+#siteinfo {
+  height: 660px;
+  width: 582px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  position: absolute;
+  top: 100px;
+  left: 162px;
+  padding: 0 2px 0 0;
+  scrollbar-color: rgb(0, 208, 255) #006eff;
+}
+
+#updates {
+  height: 660px;
+  width: 582px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  position: absolute;
+  top: 100px;
+  left: 162px;
+  padding: 0 2px 0 0;
+  scrollbar-color: rgb(0, 208, 255) #006eff;
+}
+
+#updates .textContainers-main-bg1 {
+  width: 520px;
+  height: 30px;
+  position: absolute;
+  top: 10px;
+  left: 9px;
+  background: linear-gradient(to right, rgb(39, 172, 244), rgb(0, 102, 255));
+  pointer-events: none;
+  border: 2px solid rgb(32, 4, 158);
+}
+
+.updateContainer1 {
+  width: 545px;
+  height: 130px;
+  position: absolute;
+  top: 20px;
+  left: 9;
+  background-image: url("/images/waveBackground.png");
+  background-size: 600px 300px;
+  background-repeat: no-repeat;
+  border: 2px solid rgb(32, 4, 158);
+}
+
+.updateContainer1 p {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: justify;
+  font-size: 13.5px;
+  font-weight: bold;
+  margin-top: -2px;
+  line-height: 1.4;
+  color: rgb(0, 3, 91);
+  text-shadow:
+    -1px -1px 0 rgb(255, 255, 255),
+    1px -1px 0 rgb(255, 255, 255),
+    -1px 1px 0 rgb(255, 255, 255),
+    1px 1px 0 rgb(255, 255, 255),
+    0px 1px 0 rgb(255, 255, 255);
+  user-select: text;
+  word-spacing: -1;
+}
+
+.updateContainer2 {
+  width: 475px;
+  height: 340px;
+  position: absolute;
+  top: 165px;
+  left: 43px;
+  background-image: url("/images/bluewhitebg-png.avif");
+  background-size: 600px 340px;
+  background-repeat: no-repeat;
+  border: 2px solid rgb(32, 4, 158);
+}
+
+.updatesMiniContainer1 {
+  width: 250px;
+  height: 25px;
+  position: absolute;
+  top: 300px;
+  left: 110px;
+  background: linear-gradient(to right, rgb(39, 172, 244), rgb(0, 102, 255));
+  pointer-events: none;
+  border: 2px solid rgb(32, 4, 158);
+}
+
+.updatesMiniContainer1 h2 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: justify;
+  font-size: 13.5px;
+  font-weight: bold;
+  margin-top: 3px;
+  margin-left: 12px;
+  line-height: 1.4;
+  color: rgb(0, 3, 91);
+  text-shadow:
+    -1px -1px 0 rgb(255, 255, 255),
+    1px -1px 0 rgb(255, 255, 255),
+    -1px 1px 0 rgb(255, 255, 255),
+    1px 1px 0 rgb(255, 255, 255),
+    0px 1px 0 rgb(255, 255, 255);
+  user-select: text;
+  word-spacing: 1;
+}
+
+.Archive1 {
+  width: 440px;
+  height: 275px;
+  margin-left: 15px;
+  margin-top: 13px;
+  border: 2px solid rgb(32, 4, 158);
+  border-radius: 10px;
+}
+
+.updatesMiniContainer2 {
+  width: 250px;
+  height: 25px;
+  position: absolute;
+  top: 300px;
+  left: 110px;
+  background: linear-gradient(to right, rgb(39, 172, 244), rgb(0, 102, 255));
+  pointer-events: none;
+  border: 2px solid rgb(32, 4, 158);
+}
+
+.updatesMiniContainer2 h2 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: justify;
+  font-size: 13.5px;
+  font-weight: bold;
+  margin-top: 3px;
+  margin-left: 12px;
+  line-height: 1.4;
+  color: rgb(0, 3, 91);
+  text-shadow:
+    -1px -1px 0 rgb(255, 255, 255),
+    1px -1px 0 rgb(255, 255, 255),
+    -1px 1px 0 rgb(255, 255, 255),
+    1px 1px 0 rgb(255, 255, 255),
+    0px 1px 0 rgb(255, 255, 255);
+  user-select: text;
+  word-spacing: 1;
+}
+
+.updateContainer3 {
+  width: 475px;
+  height: 340px;
+  position: absolute;
+  top: 845px;
+  left: 43px;
+  background-image: url("/images/bluewhitebg-png.avif");
+  background-size: 600px 340px;
+  background-repeat: no-repeat;
+  border: 2px solid rgb(32, 4, 158);
+}
+
+.Archive2 {
+  width: 440px;
+  height: 275px;
+  margin-left: 15px;
+  margin-top: 13px;
+  border: 2px solid rgb(32, 4, 158);
+  border-radius: 10px;
+}
+
+.updateContainer4 {
+  width: 475px;
+  height: 310px;
+  position: absolute;
+  top: 520px;
+  left: 43px;
+  background-image: url("/images/bluewhitebg-png.avif");
+  background-size: 600px 340px;
+  background-repeat: no-repeat;
+  border: 2px solid rgb(32, 4, 158);
+}
+
+.updatesMiniContainer3 {
+  width: 250px;
+  height: 25px;
+  position: absolute;
+  top: 270px;
+  left: 110px;
+  background: linear-gradient(to right, rgb(39, 172, 244), rgb(0, 102, 255));
+  pointer-events: none;
+  border: 2px solid rgb(32, 4, 158);
+}
+
+.updatesMiniContainer3 h2 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: justify;
+  font-size: 13.5px;
+  font-weight: bold;
+  margin-top: 3px;
+  margin-left: 10px;
+  line-height: 1.4;
+  color: rgb(0, 3, 91);
+  text-shadow:
+    -1px -1px 0 rgb(255, 255, 255),
+    1px -1px 0 rgb(255, 255, 255),
+    -1px 1px 0 rgb(255, 255, 255),
+    1px 1px 0 rgb(255, 255, 255),
+    0px 1px 0 rgb(255, 255, 255);
+  user-select: text;
+  word-spacing: 1;
+}
+
+.Archive3 {
+  width: 440px;
+  height: 246px;
+  margin-left: 15px;
+  margin-top: 13px;
+  border: 2px solid rgb(32, 4, 158);
+  border-radius: 10px;
+}
+
+.updateContainer5 {
+  width: 475px;
+  height: 310px;
+  position: absolute;
+  top: 1200px;
+  left: 43px;
+  background-image: url("/images/bluewhitebg-png.avif");
+  background-size: 600px 340px;
+  background-repeat: no-repeat;
+  border: 2px solid rgb(32, 4, 158);
+}
+
+.updatesMiniContainer4 {
+  width: 250px;
+  height: 25px;
+  position: absolute;
+  top: 270px;
+  left: 110px;
+  background: linear-gradient(to right, rgb(39, 172, 244), rgb(0, 102, 255));
+  pointer-events: none;
+  border: 2px solid rgb(32, 4, 158);
+}
+
+.updatesMiniContainer4 h2 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: justify;
+  font-size: 13.5px;
+  font-weight: bold;
+  margin-top: 3px;
+  margin-left: 17px;
+  line-height: 1.4;
+  color: rgb(0, 3, 91);
+  text-shadow:
+    -1px -1px 0 rgb(255, 255, 255),
+    1px -1px 0 rgb(255, 255, 255),
+    -1px 1px 0 rgb(255, 255, 255),
+    1px 1px 0 rgb(255, 255, 255),
+    0px 1px 0 rgb(255, 255, 255);
+  user-select: text;
+  word-spacing: 1;
+}
+
+.Archive4 {
+  width: 440px;
+  height: 246px;
+  margin-left: 15px;
+  margin-top: 13px;
+  border: 2px solid rgb(32, 4, 158);
+  border-radius: 10px;
+}
+
+.updateContainer6 {
+  width: 475px;
+  height: 515px;
+  position: absolute;
+  top: 1525px;
+  left: 43px;
+  background-image: url("/images/bluewhitebg-png.avif");
+  background-size: 600px 515px;
+  background-repeat: no-repeat;
+  border: 2px solid rgb(32, 4, 158);
+}
+
+.updatesMiniContainer5 {
+  width: 250px;
+  height: 25px;
+  position: absolute;
+  top: 475px;
+  left: 110px;
+  background: linear-gradient(to right, rgb(39, 172, 244), rgb(0, 102, 255));
+  pointer-events: none;
+  border: 2px solid rgb(32, 4, 158);
+}
+
+.updatesMiniContainer5 h2 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: justify;
+  font-size: 13.5px;
+  font-weight: bold;
+  margin-top: 3px;
+  margin-left: 22px;
+  line-height: 1.4;
+  color: rgb(0, 3, 91);
+  text-shadow:
+    -1px -1px 0 rgb(255, 255, 255),
+    1px -1px 0 rgb(255, 255, 255),
+    -1px 1px 0 rgb(255, 255, 255),
+    1px 1px 0 rgb(255, 255, 255),
+    0px 1px 0 rgb(255, 255, 255);
+  user-select: text;
+  word-spacing: 1;
+}
+
+.Archive5 {
+  width: 440px;
+  height: 450px;
+  margin-left: 15px;
+  margin-top: 13px;
+  border: 2px solid rgb(32, 4, 158);
+  border-radius: 10px;
+}
+
+.updateContainer7 {
+  width: 475px;
+  height: 465px;
+  position: absolute;
+  top: 2055px;
+  left: 43px;
+  background-image: url("/images/bluewhitebg-png.avif");
+  background-size: 600px 515px;
+  background-repeat: no-repeat;
+  border: 2px solid rgb(32, 4, 158);
+}
+
+.updatesMiniContainer6 {
+  width: 310px;
+  height: 25px;
+  position: absolute;
+  top: 425px;
+  left: 80px;
+  background: linear-gradient(to right, rgb(39, 172, 244), rgb(0, 102, 255));
+  pointer-events: none;
+  border: 2px solid rgb(32, 4, 158);
+}
+
+.updatesMiniContainer6 h2 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: justify;
+  font-size: 13.5px;
+  font-weight: bold;
+  margin-top: 3px;
+  margin-left: 17px;
+  line-height: 1.4;
+  color: rgb(0, 3, 91);
+  text-shadow:
+    -1px -1px 0 rgb(255, 255, 255),
+    1px -1px 0 rgb(255, 255, 255),
+    -1px 1px 0 rgb(255, 255, 255),
+    1px 1px 0 rgb(255, 255, 255),
+    0px 1px 0 rgb(255, 255, 255);
+  user-select: text;
+  word-spacing: 1;
+}
+
+.Archive6 {
+  width: 440px;
+  height: 400px;
+  margin-left: 15px;
+  margin-top: 13px;
+  border: 2px solid rgb(32, 4, 158);
+  border-radius: 10px;
+}
+
+.scroll-end-spacer2 {
+  position: absolute;
+  top: 2520px;
+  left: 0;
+  width: 1px;
+  height: 20px;
+}
+
+.sidebarContainerLeft {
+  width: 165px;
+  height: 650px;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(87, 193, 249),
+    rgb(17, 111, 252)
+  );
+  margin-left: -10px;
+  margin-top: 3px;
+  display: flex;
+  flex-direction: column;
+  outline: 3px solid black;
+  position: relative;
+  z-index: 1;
+}
+
+.sidebarContainerLeft .sidebar-item {
+  width: 145px;
+  height: 127px;
+  background-image: linear-gradient(
+    to left,
+    rgb(0, 166, 255),
+    rgb(73, 234, 255)
+  );
+  border-radius: 15px;
+  margin-left: 10px;
+  padding-right: -40px;
+  margin-bottom: -5px;
+  margin-top: 13px;
+  outline: 2px solid black;
+}
+
+.sidebarContainerLeft .miniContainer {
+  width: 135px;
+  height: 22px;
+  border-radius: 10px 10px 0px 0;
+  background-image: linear-gradient(
+    to right,
+    rgb(39, 172, 244),
+    rgb(0, 102, 255)
+  );
+  margin-left: 5px;
+  margin-top: -18px;
+  outline: 2px solid black;
+}
+
+.miniContainer h5 {
+  margin-left: 20px;
+  padding-top: 3px;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+.sidebarContainerLeft .sidebar-item:nth-child(1) .miniContainer h5 {
+  padding-top: -40px;
+  padding-left: 4px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.sidebarContainerLeft .sidebar-item:nth-child(2) .miniContainer h5 {
+  padding-top: -10px;
+  padding-left: 18px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.sidebarContainerLeft .sidebar-item:nth-child(3) .miniContainer h5 {
+  padding-top: -10px;
+  padding-left: 11px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.sidebarContainerLeft .sidebar-item:nth-child(4) .miniContainer h5 {
+  padding-top: -10px;
+  padding-left: -21px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.sidebarContainerLeft .sidebar-item:nth-child(2) > h5 a {
+  cursor:
+    url("/images/CursorPointer.png") 0 0,
+    pointer;
+}
+
+.sidebarContainerLeft .sidebar-item:nth-child(2) > h5 {
+  display: flex;
+  align-items: center;
+  margin-top: -13px;
+  margin-bottom: 4px;
+  padding-top: 15px;
+  padding-left: -15px;
+  margin-left: 5px;
+  font-size: 14px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgb(28, 20, 142);
+}
+
+.mini-icon-dolphin {
+  width: 25px;
+  height: 25px;
+  margin-bottom: -6px;
+}
+
+.mini-icon-mugman {
+  width: 22px;
+  height: 22px;
+  margin-bottom: -2px;
+  transform: translateX(-2px);
+}
+
+.mini-icon-music {
+  margin-bottom: -3px;
+  transform: translateX(-7px);
+  width: 15px;
+  height: 15px;
+}
+
+.mini-icon-drumkit {
+  margin-bottom: 2px;
+  transform: translateX(-3px);
+  width: 20px;
+  height: 15px;
+}
+
+.LuigiVendettaXD {
+  width: 90px;
+  height: 90px;
+  margin-top: -15px;
+  margin-left: 10px;
+}
+
+.XD {
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-left: 105px;
+  margin-top: 40px;
+}
+
+.sidebarContainerLeft .sidebar-item:nth-child(2) hr {
+  margin-left: 5px;
+  margin-top: 2px;
+  margin-bottom: -2px;
+  width: 135px;
+  border: none;
+  border-top: 2px solid #000;
+  height: 0;
+  background: transparent;
+}
+
+.sidebarContainerLeft .sidebar-item:nth-child(2) a {
+  color: rgb(28, 20, 142);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.sidebarContainerLeft .sidebar-item:nth-child(2) a:hover {
+  color: rgb(255, 255, 255);
+}
+
+.sidebarContainerLeft .sidebar-item:nth-child(2) > h5:nth-of-type(1) {
+  padding-top: 14px;
+}
+
+.sidebarContainerLeft .sidebar-item:nth-child(2) > h5:nth-of-type(1) a {
+  position: relative;
+  top: 3px;
+}
+
+.sidebarContainerLeft .sidebar-item:nth-child(2) > h5:nth-of-type(2) {
+  padding-left: 4px;
+  position: relative;
+}
+
+.sidebarContainerLeft .sidebar-item:nth-child(2) > h5:nth-of-type(3) {
+  padding-left: 11px;
+}
+
+.sidebarContainerLeft .sidebar-item:nth-child(2) > h5:nth-of-type(4) {
+  padding-left: 6px;
+  margin-top: -14px;
+}
+
+.sidebarContainerLeft .sidebar-item:nth-child(1) a {
+  color: rgb(28, 20, 142);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.sidebarContainerLeft .sidebar-item:nth-child(1) a:hover {
+  color: rgb(255, 255, 255);
+}
+
+.sidebarContainerLeft .sidebar-item:nth-child(1) hr {
+  margin-left: 5px;
+  margin-top: 2px;
+  margin-bottom: -12px;
+  width: 135px;
+  border: none;
+  border-top: 2px solid #000;
+  height: 0;
+  background: transparent;
+}
+
+.sidebarContainerLeft .sidebar-item:nth-child(1) hr:nth-of-type(3) {
+  margin-top: -5px;
+}
+
+.sidebarContainerLeft .sidebar-item:nth-child(1) > h5 a {
+  cursor:
+    url("/images/CursorPointer.png") 0 0,
+    pointer;
+}
+
+.sidebarContainerLeft .sidebar-item:nth-child(1) > h5 {
+  display: flex;
+  align-items: center;
+  margin-top: -8px;
+  margin-bottom: 2px;
+  padding-top: 15px;
+  padding-left: -15px;
+  margin-left: 5px;
+  font-size: 14px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgb(28, 20, 142);
+}
+
+.sidebarContainerLeft .sidebar-item:nth-child(1) > h5:nth-of-type(1) {
+  padding-left: 6px;
+}
+
+.sidebarContainerLeft .sidebar-item:nth-child(1) > h5:nth-of-type(2) {
+  padding-left: 24px;
+}
+
+.sidebarContainerLeft .sidebar-item:nth-child(1) > h5:nth-of-type(3) {
+  padding-left: 15px;
+  margin-top: -18px;
+}
+
+.sidebarContainerLeft .sidebar-item:nth-child(1) > h5:nth-of-type(4) {
+  padding-left: 20px;
+  margin-top: -16px;
+}
+
+.mini-icon-home {
+  width: 20px;
+  height: 20px;
+  margin-bottom: -8px;
+  margin-top: -12px;
+  margin-left: -2px;
+  transform: translateX(-2px);
+}
+
+.mini-icon-siteinfo {
+  width: 20px;
+  height: 18px;
+  margin-left: -20px;
+  transform: translateX(-2px);
+}
+
+.mini-icon-siteupdate {
+  width: 30px;
+  height: 30px;
+  margin-left: -20px;
+  transform: translateX(2px);
+}
+
+.mini-icon-dolphinphotos {
+  width: 25px;
+  height: 25px;
+  margin-left: -20px;
+  transform: translateX(2px);
+  margin-top: -1px;
+}
+
+.music-player {
+  background-image: linear-gradient(
+    to left,
+    rgb(0, 166, 255),
+    rgb(73, 234, 255)
+  );
+  border: 2px solid #000;
+  border-radius: 15px;
+  padding: 14px;
+  margin: 12px -1px 0 10px;
+  color: white;
+  text-align: center;
+  width: 146px;
+  height: 230px;
+  box-sizing: border-box;
+}
+.music-player .now-playing-container {
+  width: 125px;
+  height: 22px;
+  border-radius: 10px 10px 0px 0;
+  background-image: linear-gradient(
+    to right,
+    rgb(39, 172, 244),
+    rgb(0, 102, 255)
+  );
+  margin-left: -5px;
+  margin-right: auto;
+  margin-top: -8px;
+  outline: 2px solid black;
+}
+
+.music-player .now-playing-container h3 {
+  margin: 0;
+  padding-top: 2px;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  text-align: center;
+}
+
+.music-player p {
+  margin-top: -4px;
+  font-size: 11.5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.music-player .song-name-container {
+  width: 110px;
+  border-radius: 10px 10px 10px 10px;
+  background-image: linear-gradient(
+    to right,
+    rgb(39, 172, 244),
+    rgb(0, 102, 255)
+  );
+  margin-left: -6px;
+  margin-right: 0px;
+  margin-top: 8px;
+  outline: 2px solid black;
+  padding: 8px;
+  min-height: 30px;
+  max-height: 32px;
+  overflow: hidden;
+}
+
+.controls {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2px;
+  margin: 6px 0;
+  justify-items: start;
+  margin-left: -6px;
+}
+
+.controls button {
+  margin-left: 0px;
+  width: 63px;
+  height: 40px;
+  background-image: linear-gradient(
+    to right,
+    rgb(39, 172, 244),
+    rgb(0, 102, 255)
+  );
+  border: 2px solid rgb(0, 0, 0);
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 11.5px;
+  cursor:
+    url("/images/CursorPointer.png") 0 0,
+    pointer;
+}
+
+.controls button:hover {
+  background: rgba(255, 255, 255, 0.485);
+}
+
+.volume-container p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: -6px;
+  gap: 5px;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.volume-container {
+  width: 125px;
+  height: 20px;
+  border-radius: 6px;
+  background-image: linear-gradient(
+    to right,
+    rgb(39, 172, 244),
+    rgb(0, 102, 255)
+  );
+  margin-left: -4px;
+  margin-right: auto;
+  margin-top: 12px;
+  outline: 2px solid black;
+}
+
+.volume input {
+  width: 100%;
+  cursor: pointer;
+  height: 26px;
+  background: rgb(2, 120, 255);
+  cursor:
+    url("/images/CursorPointer.png") 0 0,
+    pointer;
+}
+
+.sidebarContainerRight {
+  width: 165px;
+  height: 650px;
+  background-color: rgb(0, 225, 255);
+  margin-left: auto;
+  margin-right: -13px;
+  margin-top: -650px;
+  display: flex;
+  flex-direction: column;
+  border-left: 3px solid black;
+  border-right: 3px solid black;
+  border-bottom: 3px solid black;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(87, 193, 249),
+    rgb(17, 111, 252)
+  );
+}
+
+.sidebarContainerRight .poster-container h5 {
+  height: 60px;
+  border-radius: 0;
+  margin-top: 0px;
+  margin-left: 17px;
+  padding-top: 5px;
+  display: flex;
+  font-size: 14px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: white;
+}
+.poster-container {
+  width: 141px;
+  height: 25px;
+  margin-bottom: -30px;
+  border-radius: 0;
+  background-image: linear-gradient(
+    to right,
+    rgb(39, 172, 244),
+    rgb(0, 102, 255)
+  );
+  margin-left: 11px;
+  margin-top: 10px;
+  outline: 2px solid black;
+}
+
+.dolphin-poster {
+  width: 140px;
+  margin-left: 10px;
+  margin-top: 40px;
+  border: 2px solid black;
+}
+
+.dolphin-poster2 {
+  width: 140px;
+  height: 195px;
+  margin-left: 10px;
+  margin-top: 5px;
+  border: 2px solid black;
+}
+
+.underwater-poster {
+  width: 140px;
+  height: 400px;
+  margin-left: 10px;
+  margin-top: 5px;
+  border: 2px solid black;
+}
+
+.dolphin-poster3 {
+  width: 240px;
+  height: 335px;
+  margin-left: -40px;
+  margin-top: -300px;
+  margin-bottom: -30px;
+  position: relative;
+  z-index: 1;
+}
+
+.footerContainer {
+  width: 924px;
+  height: 70px;
+  margin-top: 0px;
+  margin-left: -10px;
+  margin-bottom: -80px;
+  border-radius: 0 0 60px 60px;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(87, 193, 249),
+    rgb(17, 111, 252)
+  );
+  outline: 3px solid black;
+}
+
+.footerContainer p {
+  text-align: center;
+  font-size: 15px;
+  margin-top: 25px;
+  margin-left: -20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+}
