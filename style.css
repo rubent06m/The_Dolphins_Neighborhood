@@ -1020,14 +1020,15 @@ h1 {
 }
 
 .oceanBackground {
-  width: 180px;
+  width: 185px;
   height: 185px;
-  margin-left: 345px;
+  margin-left: 340px;
   margin-top: -198px;
   background-image: url("/images/OceanBackground.jpg");
   background-size: 210px 190px;
   background-repeat: no-repeat;
   border: 2px solid rgb(32, 4, 158);
+  border-radius: 20px;
 }
 
 .photosBigContainer {
