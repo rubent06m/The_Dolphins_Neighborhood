@@ -957,6 +957,102 @@ h1 {
   height: 20px;
 }
 
+#photos {
+  height: 660px;
+  width: 582px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  position: absolute;
+  top: 100px;
+  left: 162px;
+  padding: 0 2px 0 0;
+  scrollbar-color: rgb(0, 208, 255) #006eff;
+}
+
+#photos .textContainers-main-bg {
+  width: 540px;
+  height: 30px;
+  position: absolute;
+  top: 20px;
+  left: 10px;
+  background: linear-gradient(to right, rgb(39, 172, 244), rgb(0, 102, 255));
+  pointer-events: none;
+  border: 2px solid rgb(32, 4, 158);
+}
+
+.photosSmallContainer {
+  width: 540px;
+  height: 200px;
+  position: absolute;
+  top: 60px;
+  left: 10px;
+  background-image: url("/images/waveBackground.png");
+  background-size: 600px 515px;
+  background-repeat: no-repeat;
+  border: 2px solid rgb(32, 4, 158);
+}
+
+.photosSmallContainer p {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: justify;
+  font-size: 13.5px;
+  font-weight: bold;
+  margin-top: 8px;
+  margin-left: 8px;
+  line-height: 1.5;
+  color: rgb(0, 3, 91);
+  text-shadow:
+    -1px -1px 0 rgb(255, 255, 255),
+    1px -1px 0 rgb(255, 255, 255),
+    -1px 1px 0 rgb(255, 255, 255),
+    1px 1px 0 rgb(255, 255, 255),
+    0px 1px 0 rgb(255, 255, 255);
+  user-select: text;
+  word-spacing: -0.5;
+}
+
+.dolphinDancingGif {
+  width: 200px;
+  height: 185px;
+  margin-left: 335px;
+  margin-top: -198px;
+  transform: translate(0%);
+}
+
+.oceanBackground {
+  width: 180px;
+  height: 185px;
+  margin-left: 345px;
+  margin-top: -198px;
+  background-image: url("/images/OceanBackground.jpg");
+  background-size: 210px 190px;
+  background-repeat: no-repeat;
+  border: 2px solid rgb(32, 4, 158);
+}
+
+.photosBigContainer {
+  width: 540px;
+  height: 465px;
+  position: absolute;
+  top: 275px;
+  left: 10px;
+  background-image: url("/images/bluewhitebg-png.avif");
+  background-size: 600px 515px;
+  background-repeat: no-repeat;
+  border: 2px solid rgb(32, 4, 158);
+}
+
+#about .textContainers-main-bg {
+  width: 560px;
+  height: 30px;
+  position: absolute;
+  top: 120px;
+  left: 170px;
+  background: linear-gradient(to right, rgb(39, 172, 244), rgb(0, 102, 255));
+  pointer-events: none;
+  border: 2px solid rgb(32, 4, 158);
+}
+
 .sidebarContainerLeft {
   width: 165px;
   height: 650px;
