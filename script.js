@@ -69,3 +69,24 @@ function scaleSite() {
 
 window.addEventListener('load', scaleSite);
 window.addEventListener('resize', scaleSite);
+
+function showSection(hash) {
+  const id = hash.replace("#", "") || "home";
+  document.querySelectorAll(".centerContent section").forEach((section) => {
+    section.style.display = section.id === id ? "block" : "none";
+  });
+}
+
+document.querySelectorAll('.sidebarContainerLeft a[href^="#"]').forEach((link) => {
+  link.addEventListener("click", function (e) {
+    e.preventDefault();
+    const hash = this.getAttribute("href");
+    history.pushState(null, "", hash);
+    showSection(hash);
+  });
+});
+
+// Muestra la sección correcta al cargar la página (respeta links directos con #)
+window.addEventListener("load", () => {
+  showSection(window.location.hash || "#home");
+});
