@@ -52,3 +52,20 @@ function setVolume() {
 
 // Default state
 songName.textContent = "No song selected";
+
+function scaleSite() {
+  const container = document.querySelector('.MainContainer');
+  const designWidth = 950;
+  const availableWidth = window.innerWidth;
+
+  let scale = availableWidth / designWidth;
+  if (scale > 1) scale = 1;
+
+  container.style.transform = `scale(${scale})`;
+
+  const originalHeight = container.offsetHeight / (parseFloat(container.style.transform.match(/[\d.]+/)) || 1);
+  document.body.style.height = (originalHeight * scale + 100) + 'px';
+}
+
+window.addEventListener('load', scaleSite);
+window.addEventListener('resize', scaleSite);

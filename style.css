@@ -34,6 +34,8 @@ body {
   box-shadow: 0 12px 30px rgba(0, 0, 0, 0.35);
   border-radius: 60px;
   position: relative;
+  transform-origin: top center;   
+  transition: transform 0.15s ease-out; 
 }
 
 .HeaderContainer {
@@ -999,7 +1001,7 @@ h1 {
   font-weight: bold;
   margin-top: 8px;
   margin-left: 8px;
-  line-height: 1.5;
+  line-height: 1.53;
   color: rgb(0, 3, 91);
   text-shadow:
     -1px -1px 0 rgb(255, 255, 255),
@@ -1015,7 +1017,7 @@ h1 {
   width: 200px;
   height: 185px;
   margin-left: 335px;
-  margin-top: -198px;
+  margin-top: -200px;
   transform: translate(0%);
 }
 
@@ -1023,7 +1025,7 @@ h1 {
   width: 185px;
   height: 185px;
   margin-left: 340px;
-  margin-top: -198px;
+  margin-top: -200px;
   background-image: url("/images/OceanBackground.jpg");
   background-size: 210px 190px;
   background-repeat: no-repeat;
@@ -1033,7 +1035,7 @@ h1 {
 
 .photosBigContainer {
   width: 540px;
-  height: 465px;
+  height: 500px;
   position: absolute;
   top: 275px;
   left: 10px;
