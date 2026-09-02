@@ -2,11 +2,11 @@
 const songs = [
   {
     name: "FORGOTTEN AT FREDBEARS OST",
-    src: "/audio/FORGOTTEN AT FREDBEARS OST - Extras Menu Extended.mp3",
+    src: "https://github.com/rubent06m/The_Dolphins_Neighborhood/blob/main/audio/FORGOTTEN%20AT%20FREDBEARS%20OST%20-%20Extras%20Menu%20Extended.mp3",
   },
   {
     name: "FREDDYS REANIMATED EXTRAS OST",
-    src: "/audio/Freddys Reanimated - Extras Concrete Magritte looped.mp3",
+    src: "https://github.com/rubent06m/The_Dolphins_Neighborhood/blob/main/audio/Freddys%20Reanimated%20-%20Extras%20Concrete%20Magritte%20looped.mp3",
   },
   { name: "Song 3", src: "/path/to/song3.mp3" },
 ];

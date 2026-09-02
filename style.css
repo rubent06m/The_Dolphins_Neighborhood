@@ -36,7 +36,7 @@ body {
   position: relative;
   transform-origin: top center;   
   transition: transform 0.15s ease-out; 
-  text-size-adjust: 100%;         /* <- nueva línea */
+  text-size-adjust: 100%;         
   -webkit-text-size-adjust: 100%;
 }
 
