@@ -2,7 +2,7 @@
 const songs = [
   {
     name: "FORGOTTEN AT FREDBEARS OST",
-    src: "https://cdn.jsdelivr.net/gh/rubent06m/The_Dolphins_Neighborhood@neocities/audio/FORGOTTEN%20AT%20FREDBEARS%20OST%20-%20Extras%20Menu%20Extended.mp3",
+    src: "https://cdn.jsdelivr.net/gh/rubent06m/The_Dolphins_Neighborhood@neocities/audio/FORGOTTEN%20AT%20FREDBEARS%20OST%20-%20Extras%20Menu%20Extended%20(online-audio-converter.com).mp3",
   },
   {
     name: "FREDDYS REANIMATED EXTRAS OST",
