@@ -974,7 +974,7 @@ h1 {
 }
 
 #photos .textContainers-main-bg {
-  width: 540px;
+  width: 555px;
   height: 30px;
   position: absolute;
   top: 20px;
@@ -985,7 +985,7 @@ h1 {
 }
 
 .photosSmallContainer {
-  width: 540px;
+  width: 555px;
   height: 200px;
   position: absolute;
   top: 60px;
@@ -1016,15 +1016,15 @@ h1 {
 }
 
 .dolphinDancingGif {
-  width: 200px;
+  width: 204px;
   height: 185px;
-  margin-left: 335px;
+  margin-left: 340px;
   margin-top: -200px;
   transform: translate(0%);
 }
 
 .oceanBackground {
-  width: 185px;
+  width: 202px;
   height: 185px;
   margin-left: 340px;
   margin-top: -200px;
@@ -1036,7 +1036,7 @@ h1 {
 }
 
 .photosBigContainer {
-  width: 540px;
+  width: 555px;
   height: 500px;
   position: absolute;
   top: 275px;
