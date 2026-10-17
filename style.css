@@ -34,9 +34,9 @@ body {
   box-shadow: 0 12px 30px rgba(0, 0, 0, 0.35);
   border-radius: 60px;
   position: relative;
-  transform-origin: top center;   
-  transition: transform 0.15s ease-out; 
-  text-size-adjust: 100%;         /* <- nueva línea */
+  transform-origin: top center;
+  transition: transform 0.15s ease-out;
+  text-size-adjust: 100%; /* <- nueva línea */
   -webkit-text-size-adjust: 100%;
 }
 
@@ -1045,6 +1045,52 @@ h1 {
   background-size: 600px 515px;
   background-repeat: no-repeat;
   border: 2px solid rgb(32, 4, 158);
+}
+
+.flex-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.cursedDolphinOG {
+  width: 210px;
+  height: 200px;
+  background-image: url("/images/cursedDolphinOG.png");
+  background-repeat: no-repeat;
+  background-size: 210px 200px;
+  margin-left: 30px;
+  margin-top: 30px;
+  border-radius: 20px;
+  border: 2px solid rgb(32, 4, 158);
+  transform: rotate(10deg);
+}
+
+.cursedDolphinOG2 {
+  width: 220px;
+  height: 195px;
+  background-image: url("/images/cursedDolphinOG2.png");
+  background-repeat: no-repeat;
+  background-size: 220px 195px;
+  margin-left: -220px;
+  margin-top: 240px;
+  border-radius: 20px;
+  border: 2px solid rgb(32, 4, 158);
+  transform: rotate(-5deg);
+}
+
+.cursedRedDolphin {
+  width: 150px;
+  height: 150px;
+  background-image: url("/images/cursedDolphin.png");
+  background-repeat: no-repeat;
+  background-size: 150px 150px;
+  margin-left: -30px;
+  margin-top: 180px;
+  border-radius: 20px;
+  border: 2px solid rgb(32, 4, 158);
+  transform: rotate(-3deg);
 }
 
 #about .textContainers-main-bg {
